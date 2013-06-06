@@ -34,10 +34,13 @@ group :assets do
   gem 'modernizr-rails'
 end
 
+gem 'mysql2'
+
+
 #gem 'will_paginate'
 
-gem 'capistrano-db-tasks', require: false
-gem 'yaml_db'
+#gem 'capistrano-db-tasks', require: false
+#gem 'yaml_db'
 
 gem 'ckeditor'
 gem 'multi_json'
@@ -51,8 +54,8 @@ gem 'execjs'
 gem 'therubyracer'
 
 gem 'kaminari'
-gem 'angular-rails'
-gem 'select2-rails'
+#gem 'angular-rails'
+#gem 'select2-rails'
 
 gem 'russian', '~> 0.6.0'
 gem 'mercury-rails'

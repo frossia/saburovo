@@ -1,7 +1,5 @@
 class PostsController < ApplicationController
 
-  #paginates_per 3
-
   def index
     @posts = Post.order('created_at').page(params[:page])
     @categores = Category.all
