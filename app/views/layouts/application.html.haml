@@ -1,0 +1,75 @@
+!!! 5
+/ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+/[if lt IE 7 ] <html class=\"ie6\" lang=\"en\">
+/[if IE 7 ]    <html class=\"ie7\" lang=\"en\">
+/[if IE 8 ]    <html class=\"ie8\" lang=\"en\">
+/[if IE 9 ]    <html class=\"ie9\" lang=\"en\">
+/[if (gt IE 9)|!(IE)] <!--> <html lang=\"en\">
+
+%head
+  %meta{ :charset => "utf-8" }
+
+  -# Uncomment to make IE8 render like IE7
+  -# meta http-equiv="X-UA-Compatible" content="IE=7"
+
+  -# Set the viewport width to device width for mobile
+  %meta{ :name => "viewport", :content => "width=device-width, initial-scale=1.0" }
+
+  -#%title= content_for?(:title) ? yield(:title) : "Untitled"
+
+  -#<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+
+  = stylesheet_link_tag "application", :media => "all"
+  = javascript_include_tag :modernizr
+  = javascript_include_tag "application"
+  = csrf_meta_tag
+
+%body.off-canvas.hide-extras
+
+%div
+  %section.head_pic{:role=>"main"}
+    .row
+
+      = render 'posts/menu'
+
+      = render 'layouts/head'
+
+      = yield
+
+
+
+
+= render 'layouts/offcanvas'
+
+
+:javascript
+  (function() {
+    var page = 1,
+        loading = false;
+
+    function nearBottomOfPage() {
+      return $(window).scrollTop() > $(document).height() - $(window).height() - 200;
+    }
+
+    $(window).scroll(function(){
+      if (loading) {
+        return;
+      }
+
+      if(nearBottomOfPage()) {
+        loading=true;
+        page++;
+        $.ajax({
+          url: '/posts?page=' + page,
+          type: 'get',
+          dataType: 'script',
+          success: function() {
+            $(window).sausage('draw');
+            loading=false;
+          }
+        });
+      }
+    });
+
+    $(window).sausage();
+  }());

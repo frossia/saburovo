@@ -1,0 +1,179 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ */
+
+@import "compass";
+@import "foundation_and_overrides";
+@import "bourbon";
+@import "offcanvas";
+@import url(http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic);
+
+
+html,body
+  {
+  margin:0; padding:0; height:100%;
+}
+
+body {
+  background: url("grid_noise.png") !important;
+  //@include background(linear-gradient(#e9edd5, #caede5) right no-repeat);
+  //@include background(linear-gradient(red, green) left repeat, radial-gradient(red, orange) left repeat);
+  //@include background(url("/images/a.png"), linear-gradient(red, green), center no-repeat orange scroll);
+}
+
+.cuprum {
+  font-family: 'Cuprum', sans-serif;
+}
+
+.georgia {
+  font-family: Georgia, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+h3 {
+  font-family: $georgia;
+  font-style: italic;
+  font-weight: normal;
+  font-size: golden-ratio(14px,  1);
+  @include text-shadow(rgba(white, 1) 1px 0 1px);
+}
+
+.animate {
+  position: relative;
+  left: 0;
+  @include transition(all .7s $ease-out-quad);
+}
+
+.animate2 {
+  @include transition(all .5s $ease-out-quad);
+}
+
+.animate:hover {
+  position: relative;
+  left: 5px;
+  @include transition(all .3s $ease-out-quad);
+
+}
+
+.box {
+  @include triangle(12px, gray, down);
+} //= require foundation_and_overrides
+
+.colored {
+  background: #999;
+}
+
+.bg {
+  background: #cccccc;
+}
+
+.toggle {
+  @include transition(all 1s $ease-out-quad);
+  position: relative;
+  height: 0;
+  width: auto;
+  overflow: hidden;
+}
+
+.out {
+  height: 100px;
+  @include transition(all 1s $ease-out-quad);
+}
+
+.bottom_round {
+  @include border-bottom-radius(10px);
+}
+
+@media #{$small} {
+.col_count {
+  @include column-count(1);
+}}
+
+@media #{$medium} {
+  .col_count {
+    @include column-count(2);
+  }}
+
+@media #{$large} {
+  .col_count {
+    @include column-count(2);
+  }}
+
+li.category {
+  padding: 7px;
+  @include transition(all .3s $ease-out-quad);
+}
+
+li.category:hover {
+  @include transition(all 1s $ease-out-quad);
+  background: #e0e0e0;
+}
+
+a.h66 h6 {
+  &:hover {
+  color: cadetblue;
+  }
+}
+
+.margintop {
+  margin: 10px  0 0 0;
+}
+
+.head_pic {
+  background: url("1300.jpg") no-repeat top center;
+}
+
+
+.float_right {
+  text-align: right;
+}
+
+.float_center {
+  text-align: center;
+}
+
+button, .button {
+  font-weight: normal;
+  @include text-shadow(rgba(#000041, 0.4) 1px 1px 0);
+}
+
+a > i {
+  font-weight: bold;
+}
+
+h3 > a {
+  color: #333;
+}
+
+h4.subheader {
+  line-height: 0.7;
+
+  }
+h4 small > a {
+  //color: #333;
+  border-bottom: 1px dashed none;
+  &:hover {
+    border-bottom: 1px dashed #2ba6cb;
+  }
+}
+
+.pan {
+  padding: 10px;
+  background: rgba(#fff,.3);
+  @include box-shadow(0 1px 2px rgba(#b3b3b3,.5));
+}
+
+.large-block-grid-2 li {
+  //padding: 0 10px 0 10px;
+}

@@ -1,0 +1,23 @@
+div.post
+  h3.georgia
+    = link_to post.title, post_path(post)
+  div
+    ul.large-block-grid-2
+      li
+        h4.subheader
+          small
+            /a href='#' = post.category.name
+      li.float_right
+        - if post.created_at.to_date == Date.today
+          h4.subheader
+            small = 'Сегодня в  ' + post.created_at.strftime('%H:%M')
+        - elsif post.created_at.to_date == Date.today - 1.day
+          h4.subheader
+            small = 'Вчера в ' + post.created_at.strftime('%H:%M')
+        - else
+          h4.subheader
+            small = l post.created_at
+          /= l Time.now, format: :short
+    div
+      /p = post.body.first(100).html_safe
+      p = truncate_html(post.body, :length => 620, :break_token => '<hr class="read_more">',:omission => '...')

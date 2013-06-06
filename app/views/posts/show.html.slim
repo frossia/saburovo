@@ -1,0 +1,10 @@
+/= render 'posts/menu'
+
+
+.row
+  .large-12.columns
+    h1
+      span#post_title.mercury-region  data-mercury="full" = raw @post.title
+    div#post_body.mercury-region data-mercury="full" = raw @post.body
+    = link_to "Edit Page", "/editor" + request.path, id: "edit_link", data: {save_url: mercury_update_post_path(@post)}
+    = mercury_update_post_path(@post)
