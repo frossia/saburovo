@@ -32,6 +32,7 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.3, RVM: ruby-1.9.3-p374) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cancan (v1.6.10, RVM: ruby-1.9.3-p374) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capistrano (v2.15.4, RVM: ruby-1.9.3-p374) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="capistrano-db-tasks (v0.2, RVM: ruby-1.9.3-p374) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="chunky_png (v1.2.8, RVM: ruby-1.9.3-p374) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ckeditor (v4.0.4, RVM: ruby-1.9.3-p374) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, RVM: ruby-1.9.3-p374) [gem]" level="application" />
@@ -102,6 +103,7 @@
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.1, RVM: ruby-1.9.3-p374) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="unicorn (v4.6.2, RVM: ruby-1.9.3-p374) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.1, RVM: ruby-1.9.3-p374) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="yaml_db (v0.2.3, RVM: ruby-1.9.3-p374) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="zurb-foundation (v4.0.9, RVM: ruby-1.9.3-p374) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

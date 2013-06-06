@@ -36,6 +36,9 @@ end
 
 #gem 'will_paginate'
 
+gem 'capistrano-db-tasks', require: false
+gem 'yaml_db'
+
 gem 'ckeditor'
 gem 'multi_json'
 gem 'jquery-rails', '~> 2.3.0'
