@@ -1,15 +1,24 @@
 class PostsController < ApplicationController
 
-  def index
-    @posts = Post.order('created_at').page(params[:page])
-    @categores = Category.all
+  respond_to :html, :js
 
-    respond_to do |format|
-      format.js
-      format.html
-      format.xml  { render :xml => @posts }
-      format.json { render json: @posts }
-    end
+  def index
+
+    #last = params[:last].blank? ? Time.now + 1.second : Time.parse(params[:last])
+    #@posts = Post.feed(last)
+
+    #@posts = Post.paginate(:page => params[:page], :per_page => 15)
+    #title = 'Администрация Москворечье-Сабурово'
+    @posts = Post.order('created_at DESC').page(params[:page])
+    @categores = Category.all
+    #
+    #respond_to do |format|
+    #  format.js
+    #  format.html
+    #  format.xml  { render :xml => @posts }
+    #  format.json { render json: @posts }
+    #end
+    #full_title("List of posts")
   end
 
   def show
@@ -30,5 +39,6 @@ class PostsController < ApplicationController
     post.save!
     render text: ""
   end
+
 
 end

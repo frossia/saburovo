@@ -1,11 +1,11 @@
 section id="sidebar" role="complementary"
-  nav id="sideMenu" role="navigation"
-    ul id="sideMainNav" class="nav-bar"
-      li
-        a href="#" one
-      li
-        a href="#" two
-      li
-        a href="#" three
-      li
-        a href="#" four
+  ul.col_count.no-bullet.scroll_area
+    - unless @categores.nil?
+      - @categores.each do |cat|
+        li.category
+          h6 = cat.name
+          ul.no-bullet
+            - cat.posts.each do |post|
+              li
+                a.h66 href=url_for(post_path(post))
+                  h6.subheader = post.title

@@ -8,8 +8,25 @@
   var $selector2 = $('#sidebarButton');
   if ($selector2.length > 0) {
     $('#sidebarButton').on(events, function (e) {
+
       e.preventDefault();
       $('body').toggleClass('active');
+
+        var d_height, w_height;
+
+        w_height = $(window).height();
+
+        d_height = $('.head_pic').height();
+
+        if (d_height > w_height) {
+            $('.scroll_area').css('height', d_height);
+            $('#sidebar').css('height', d_height);
+            console.log('d_h ' + d_height);
+        } else {
+            $('.scroll_area').css('height', w_height);
+            console.log('w_h ' + w_height);
+        }
+
     });
   }
 

@@ -1,10 +1,14 @@
-
+- provide(:title, '1')
 
 .row
   .large-8.columns
     #posts
-      .page
-        = render @posts
+      =render :partial => @posts      
+    p.float_center
+      = link_to_next_page @posts, 'Еще...', :remote => true, :id=>"load_more_link", :class=>'button'
+        
+      end
+    /#infinite-scroll Loading...
 
   .large-4.columns
     .pan

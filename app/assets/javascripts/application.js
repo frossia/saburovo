@@ -13,9 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.ui.widget
-//= require sausage
 //= require post
+//= require page_scrolling
+//= require endless_page
 //= require offcanvas
+//= require pagetransitions
 
 
 

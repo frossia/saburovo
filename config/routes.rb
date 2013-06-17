@@ -8,6 +8,9 @@ SaburovoNew::Application.routes.draw do
 
   resources :posts do
     member { post :mercury_update }
+    member do
+      get 'test'
+    end
   end
 
 

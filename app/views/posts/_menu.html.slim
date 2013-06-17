@@ -1,11 +1,12 @@
-#mmodal.reveal-modal.bg
+#mmodal.reveal-modal
   a.close-reveal-modal &#215;
   ul.col_count.no-bullet
-    - @categores.each do |cat|
-      li.category
-        h6 = cat.name
-        ul.no-bullet
-          - cat.posts.each do |post|
-            li
-              a.h66.animate href=url_for(post_path(post))
-                h6.subheader = post.title
+    - unless @categores.nil?
+      - @categores.each do |cat|
+        li.category
+          h6 = cat.name
+          ul.no-bullet
+            - cat.posts.each do |post|
+              li
+                a.h66 href=url_for(post_path(post))
+                  h6.subheader = post.title
