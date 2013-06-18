@@ -3,6 +3,8 @@ var PageTransitions = (function() {
 	var $main = $( '#pt-main' ),
 		$pages = $main.children( 'div.pt-page' ),
 		$iterate = $( '#iterateEffects' ),
+        $menu_in = $( '#menu_in'),
+        $menu_out = $( '#menu_out'),
 		animcursor = 1,
 		pagesCount = $pages.length,
 		current = 0,
@@ -29,13 +31,24 @@ var PageTransitions = (function() {
 
 		$pages.eq( current ).addClass( 'pt-page-current' );
 
-		$( '#dl-menu' ).dlmenu( {
-			animationClasses : { in : 'dl-animate-in-2', out : 'dl-animate-out-2' },
-			onLinkClick : function( el, ev ) {
-				ev.preventDefault();
-				nextPage( el.data( 'animation' ) );
-			}
-		} );
+        $menu_in.on( 'click', function() {
+            if (isAnimating) {
+                return false;
+            }
+            animcursor = 54;
+            nextPage (animcursor);
+        } );
+
+        $menu_out.on( 'click', function() {
+            if (isAnimating) {
+                return false;
+            }
+            animcursor = 55;
+            nextPage (animcursor);
+        } );
+
+
+
 
 		$iterate.on( 'click', function() {
 			if( isAnimating ) {

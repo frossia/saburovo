@@ -1,21 +1,21 @@
+
 .row
+  /.large-12.columns
   .large-12.columns
-    p
-      a.sidebar-button.button.active-menu id="sidebarButton" href="#sidebar" Menu
     .large-5.columns
       .logo.margintop.float_center
         = link_to image_tag('gerb100.png'), posts_url
     .large-7.columns
-      .float_right.hide-for-small
+      .float_right.hide-for-touch
         div.float_right
           h3.cuprum
             small
               i.icon-phone  Телефон/факс: +7 (499)
             |  782-88-12
         .float_center
-          ul.button-group.round.float_center style='display: inline-block; margin: 0 auto'
+          ul.button-group.round.float_center
             li
-              a.button.small href='#{posts_url}'
+              a.button.small href=posts_url
                 i.icon-home.icon-large
             li
               a.button.small(href='#' data-reveal-id="mmodal")
@@ -26,8 +26,16 @@
             li
               a.button.small(href='#' data-reveal-id="mmodal")
                 i.icon-reorder.icon-large  Меню
-              /a.bottom_round.button.small.success.radius(href='#' data-reveal-id="mmodal") Меню
 
+
+      .float_center
+        ul.button-group.round.float_center
+          li
+            a.button.small href=posts_url
+              i.icon-home.icon-large
+          li
+            a.button.small#menu_in
+              i.icon-reorder.icon-large
 
 /.row
   .large-12.columns

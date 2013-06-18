@@ -1,4 +1,8 @@
-section id="sidebar" role="complementary"
+div id="sidebar"
+  .float_right
+    a#menu_out href='#'
+      i.icon-remove-circle.icon-3x
+  /a.sidebar-button.button.active-menu id="menu_out" href="#" Menu
   ul.col_count.no-bullet.scroll_area
     - unless @categores.nil?
       - @categores.each do |cat|

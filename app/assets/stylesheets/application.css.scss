@@ -32,6 +32,10 @@ body {
   //@include background(url("/images/a.png"), linear-gradient(red, green), center no-repeat orange scroll);
 }
 
+#pt-main {
+  //margin-top: 50px;
+}
+
 .cuprum {
   font-family: 'Cuprum', sans-serif;
 }
@@ -45,7 +49,6 @@ body {
 
 h3 {
   font-family: $georgia;
-  font-style: italic;
   font-weight: normal;
   font-size: golden-ratio(14px,  1);
   @include text-shadow(rgba(white, 1) 1px 0 1px);
@@ -131,12 +134,15 @@ a.h66 h6 {
 }
 
 
+
 .float_right {
   text-align: right;
 }
 
 .float_center {
   text-align: center;
+  float: right;
+
 }
 
 button, .button {
@@ -178,11 +184,23 @@ h4 small > a {
   color: #ffffff;
 }
 
-.scroll_area {
-  //overflow: auto;
+#menu_out {
+  padding: 10px;
 }
 
 #sidebar {
   overflow-y: scroll;
-  @include box-shadow(inset -10px 0px 14px 0 rgba(black,.5));
+  padding: 10px;
+  //@include box-shadow(inset -10px 0px 14px 0 rgba(black,.5));
+  background: #ffffff;
 }
+
+.to-top {
+
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  //@include box-shadow(0 0 14px 0 rgba(black,.5));
+  z-index: 99;
+}
+

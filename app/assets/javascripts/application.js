@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require jquery.ui.widget
 //= require post
+//= require modernizr
 //= require page_scrolling
 //= require endless_page
 //= require offcanvas

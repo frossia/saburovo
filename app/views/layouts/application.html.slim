@@ -22,19 +22,22 @@ head
   = csrf_meta_tag
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
-body.off-canvas.hide-extras
-
-= render 'layouts/offcanvas'
-
-div
-  section.head_pic{role="main"}
-    .row
-
+body
+  #pt-main.pt-perspective.head_pic
+    .pt-page.pt-page-1
+      = render 'layouts/head'
+      = yield
       = render 'posts/menu'
 
-      = render 'layouts/head'
+    .pt-page.pt-page-2
+      = render 'layouts/offcanvas'
 
-      = yield
+    .to-top.show-for-touch
+      .row
+        a href='#'
+          i.icon-chevron-sign-up.icon-3x
+
+
 
 
 
