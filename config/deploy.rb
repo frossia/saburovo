@@ -11,20 +11,6 @@
 # Если вы используете другую систему управления зависимостями,
 # закомментируйте эту строку.
 require 'bundler/capistrano'
-require 'capistrano-db-tasks'
-
-# if you haven't already specified
-set :rails_env, "production"
-
-# if you want to remove the dump file after loading
-set :db_local_clean, true
-
-# If you want to import assets, you can change default asset dir (default = system)
-# This directory must be in your shared directory on the server
-set :assets_dir, %w(public/assets public/att)
-
-# if you want to work on a specific local environment (default = ENV['RAILS_ENV'] || 'development')
-set :locals_rails_env, "production"
 
 ## Чтобы не хранить database.yml в системе контроля версий, поместите
 ## dayabase.yml в shared-каталог проекта на сервере и раскомментируйте
@@ -55,7 +41,7 @@ ssh_options[:forward_agent] = true
 
 # Имя вашего проекта в панели управления.
 # Не меняйте это значение без необходимости, оно используется дальше.
-set :application,     "saburovo"
+set :application,     "msaburovo"
 
 # Сервер размещения проекта.
 set :deploy_server,   "fluorine.locum.ru"

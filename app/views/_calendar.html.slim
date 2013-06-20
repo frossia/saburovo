@@ -1,8 +1,26 @@
-h3.cuprum Мероприятия
 
-h6.subheader Предстоящие события:
-ul.no-bullet
-  li
-    a Subject #1
-  li
-    a Subject #2
+h5.subheader.cuprum Предстоящие события:
+- @upcoming_events.each do |post|
+  .row
+    .large-12.columns.padding-bottom
+      span.radius.success.label = l post.action_date
+      span
+        - if post.action_date == Date.today
+          small &nbsp;сегодня
+        - else
+          small = ' осталось ' + distance_of_time_in_words(Date.today, post.action_date)
+    .large-12.columns
+      span.ActionDate
+        = link_to (post_path(post)) do
+          i.icon-long-arrow-right = '&rarr; '.html_safe + truncate(post.title, :length => 33)
+
+hr
+h5.subheader.cuprum Прошедшие события:
+- @past_events.each do |post|
+  .row
+    .large-12.columns.padding-bottom
+      span.radius.secondary.label = l post.action_date
+    .large-12.columns
+      span.ActionDate
+        = link_to (post_path(post)) do
+          i.icon-long-arrow-right = '&rarr; '.html_safe + truncate(post.title, :length => 33)

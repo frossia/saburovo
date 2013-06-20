@@ -2,18 +2,19 @@
 .row
   /.large-12.columns
   .large-12.columns
-    .large-5.columns
-      .logo.margintop.float_center
+    .large-5.small-12.columns
+      #logo.margintop.center
         = link_to image_tag('gerb100.png'), posts_url
     .large-7.columns
-      .float_right.hide-for-touch
-        div.float_right
+      /.float_right.hide-for-touch
+      .hide-for-touch
+        #telefon.text_right.hide-for-small
           h3.cuprum
             small
               i.icon-phone  Телефон/факс: +7 (499)
             |  782-88-12
-        .float_center
-          ul.button-group.round.float_center
+        #menu_bar
+          ul.button-group.round
             li
               a.button.small href=posts_url
                 i.icon-home.icon-large
@@ -27,34 +28,11 @@
               a.button.small(href='#' data-reveal-id="mmodal")
                 i.icon-reorder.icon-large  Меню
 
-
-      .float_center
-        ul.button-group.round.float_center
+      #menu_bar_touch.show-for-touch
+        ul.button-group.round
           li
             a.button.small href=posts_url
               i.icon-home.icon-large
           li
             a.button.small#menu_in
               i.icon-reorder.icon-large
-
-/.row
-  .large-12.columns
-    /.float_right
-    p
-      a.button.small.round.dropdown href="#" data-dropdown="drop-menu"
-        i.icon-reorder.icon-large  Меню
-
-
-  /a.button.small href="#" data-dropdown="drop-menu" EEE
-  div#drop-menu.f-dropdown.content{data-dropdown-content}
-    .row
-      .large-12.columns
-        ul.col_count.no-bullet
-          - @categores.each do |cat|
-            li.category
-              h6 = cat.name
-              ul.no-bullet
-                - cat.posts.each do |post|
-                  li
-                    a.h66.animate href=url_for(post_path(post))
-                      h6.subheader = post.title

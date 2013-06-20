@@ -180,7 +180,8 @@ window.Mercury = {
           },
         editors:               {
           htmlEditor:          ['Edit HTML', 'Edit the HTML content', { regions: ['full'] }]
-          }
+          },
+        InsertReadMore: ['Insert Read More', 'Insert Read More description']
         },
 
       snippets: {
@@ -292,8 +293,8 @@ window.Mercury = {
     //
     // preferredLocale: If a client doesn't support the locales you've included, this is used as a fallback.
     localization: {
-      enabled: false,
-      preferredLocale: 'swedish_chef-BORK'
+      enabled: true,
+      preferredLocale: 'ru-RU'
       },
 
 
@@ -312,7 +313,10 @@ window.Mercury = {
     // callback functions are executed within the scope of the given region, so you have access to all it's methods.
     behaviors: {
       //foreColor: function(selection, options) { selection.wrap('<span style="color:' + options.value.toHex() + '">', true) },
-      htmlEditor: function() { Mercury.modal('/mercury/modals/htmleditor.html', { title: 'HTML Editor', fullHeight: true, handler: 'htmlEditor' }); }
+      htmlEditor: function() { Mercury.modal('/mercury/modals/htmleditor.html', { title: 'HTML Editor', fullHeight: true, handler: 'htmlEditor' }); },
+      InsertReadMore: function(selection) {
+        selection.replace('<hr class="read-more">');
+      }
       },
 
 
@@ -336,6 +340,7 @@ window.Mercury = {
       exit: function() { window.location.href = this.iframeSrc() },
       barrelRoll: function() { $('body').css({webkitTransform: 'rotate(360deg)'}) }
       },
+
 
 
     // ## Ajax and CSRF Headers
@@ -442,7 +447,7 @@ window.Mercury = {
   // ## Silent Mode
   //
   // Turning silent mode on will disable asking about unsaved changes before leaving the page.
-  silent: false,
+  silent: true,
 
   // ## Debug Mode
   //

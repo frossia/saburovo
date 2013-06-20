@@ -15,5 +15,9 @@ module ApplicationHelper
     end
   end
 
+  def TimeNow
+    @TimeNow = Time.now
+  end
+
 
 end

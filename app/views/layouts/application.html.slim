@@ -26,13 +26,14 @@ body
   #pt-main.pt-perspective.head_pic
     .pt-page.pt-page-1
       = render 'layouts/head'
-      = yield
+      #content
+        = yield
       = render 'posts/menu'
 
     .pt-page.pt-page-2
       = render 'layouts/offcanvas'
 
-    .to-top.show-for-touch
+    /.to-top.show-for-touch
       .row
         a href='#'
           i.icon-chevron-sign-up.icon-3x

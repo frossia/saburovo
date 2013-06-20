@@ -4,13 +4,11 @@ class PostsController < ApplicationController
 
   def index
 
-    #last = params[:last].blank? ? Time.now + 1.second : Time.parse(params[:last])
-    #@posts = Post.feed(last)
-
-    #@posts = Post.paginate(:page => params[:page], :per_page => 15)
-    #title = 'Администрация Москворечье-Сабурово'
     @posts = Post.order('created_at DESC').page(params[:page])
     @categores = Category.all
+
+    @upcoming_events = Post.where('action = true AND action_date >= ?', Date.today).limit(3)
+    @past_events = Post.where('action = true AND action_date < ?', Date.today).limit(3)
     #
     #respond_to do |format|
     #  format.js

@@ -111,7 +111,7 @@
 // $subheader-bottom-margin: .5em;
 
 // A general <small> styling
-// $small-font-size: 60%;
+$small-font-size: 80%;
 // $small-font-color: lighten($header-font-color, 30%);
 
 // We use these to style paragraphs
@@ -191,7 +191,7 @@
 // We use these to style the labels in different ways
 // $label-pointer: pointer;
 // $label-font-size: emCalc(14px);
-// $label-font-weight: 500;
+$label-font-weight: 300;
 // $label-font-color: lighten(#000, 30%);
 // $label-bottom-margin: emCalc(3px);
 // $input-font-family: inherit;
@@ -794,22 +794,21 @@ $reveal-border-color: #f4f4f4;
 //
 
 // We use these to set padding and hover factor
-// $section-padding: emCalc(15px);
+$section-padding: emCalc(5px);
 // $section-function-factor: 10%;
 
 // These style the titles
 // $section-title-color: #333;
-// $section-title-bg: #efefef;
-// $section-title-bg-active: darken($section-title-bg, $section-function-factor);
-// $section-title-bg-active-tabs: #fff;
-
+$section-title-bg: rgba(255,255,255,1);
+$section-title-bg-active: #cee9b6;
+$section-title-bg-active-tabs: transparent;
 // Want to control border size, here ya go!
 // $section-border-size: 1px;
-// $section-border-style: solid;
+$section-border-style: none;
 // $section-border-color: #ccc;
 
 // Control the color of the background and some size options
-// $section-content-bg: #fff;
+$section-content-bg: transparent;
 // $section-vertical-nav-min-width: emCalc(200px);
 // $section-bottom-margin: emCalc(20px);
 
@@ -1009,5 +1008,7 @@ $tooltip-pip-size: 7px;
 // $topbar-breakpoint: emCalc(940px); // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width "#{$topbar-breakpoint}")";
 
-
 @import 'foundation';
+
+
+
