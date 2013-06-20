@@ -33,6 +33,7 @@
     <file path="/application.rb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371733194972" ignored="false" />
     <file path="/show.html.slim" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371743993906" ignored="false" />
     <file path="/mercury.js" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371746136603" ignored="false" />
+    <file path="/Gemfile" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371758315212" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +61,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/database.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="96" selection-start="642" selection-end="642" vertical-scroll-proportion="0.8913934">
+                <state line="28" column="32" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="68" column="54" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.66188526">
                   <folding />
                 </state>
               </provider>
@@ -165,10 +175,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config/deploy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-0.9767442">
+                <state line="16" column="5" selection-start="524" selection-end="524" vertical-scroll-proportion="0.12790698">
                   <folding />
                 </state>
               </provider>
@@ -204,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/_offcanvas.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/slide_menu/component.css" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
@@ -220,6 +229,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -925,13 +935,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374/gems/railties-3.2.11/guides/code/getting_started/app/controllers/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_head.html.slim">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-23.75">
@@ -1025,16 +1028,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="96" selection-start="642" selection-end="642" vertical-scroll-proportion="0.8913934">
+        <state line="16" column="5" selection-start="524" selection-end="524" vertical-scroll-proportion="0.12790698">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-0.9767442">
+        <state line="28" column="32" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="54" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.66188526">
           <folding />
         </state>
       </provider>

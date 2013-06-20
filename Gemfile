@@ -61,6 +61,10 @@ gem 'russian', '~> 0.6.0'
 gem 'mercury-rails'
 gem 'truncate_html'
 gem 'active_admin_importable'
+
+group :production do
+  gem 'activerecord-mysql-adapter'
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
