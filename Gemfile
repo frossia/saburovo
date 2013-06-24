@@ -42,7 +42,6 @@ gem 'mysql2'
 #gem 'capistrano-db-tasks', require: false
 #gem 'yaml_db'
 
-gem 'ckeditor'
 gem 'multi_json'
 gem 'jquery-rails', '~> 2.3.0'
 gem 'devise'
@@ -62,9 +61,6 @@ gem 'mercury-rails'
 gem 'truncate_html'
 gem 'active_admin_importable'
 
-group :production do
-  gem 'activerecord-mysql-adapter'
-end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

@@ -6,19 +6,19 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/post.rb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370535928776" ignored="false" />
     <file path="/_post.html.slim" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371752691842" ignored="false" />
-    <file path="/mercury.html.erb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370519848083" ignored="false" />
+    <file path="/mercury.html.erb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1372060340143" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370522381174" ignored="false" />
-    <file path="/production.rb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370523057615" ignored="false" />
+    <file path="/production.rb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1372061149129" ignored="false" />
     <file path="/database.yml" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370538527462" ignored="false" />
     <file path="/sausage.js" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370856062853" ignored="false" />
-    <file path="/application.css.scss" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371752629253" ignored="false" />
+    <file path="/application.css.scss" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371978782292" ignored="false" />
     <file path="/posts_controller.rb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371735328218" ignored="false" />
     <file path="/index.js.rjs" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370934318088" ignored="false" />
     <file path="/index.html.slim" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371030119374" ignored="false" />
     <file path="/endless_page.js" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370934244255" ignored="false" />
     <file path="/index.js.erb" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1370935586693" ignored="false" />
-    <file path="/_calendar.html.slim" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371752401086" ignored="false" />
-    <file path="/foundation_and_overrides.scss" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371740018454" ignored="false" />
+    <file path="/_calendar.html.slim" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371983499375" ignored="false" />
+    <file path="/foundation_and_overrides.scss" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371983951137" ignored="false" />
     <file path="/_head.html.slim" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371731023241" ignored="false" />
     <file path="/_offcanvas.html.slim" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371551663891" ignored="false" />
     <file path="/application.html.haml" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371027678285" ignored="false" />
@@ -34,6 +34,11 @@
     <file path="/show.html.slim" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371743993906" ignored="false" />
     <file path="/mercury.js" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371746136603" ignored="false" />
     <file path="/Gemfile" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371758315212" ignored="false" />
+    <file path="$PROJECT_DIR$/public/assets/application-b9ef511b886b3a153587c2b9e4969001.css" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371979800035" ignored="false" />
+    <file path="$PROJECT_DIR$/public/assets/application-d1ab484c6c0754b6ea7d8c3c27bdd43e.css" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1371979800035" ignored="false" />
+    <file path="$PROJECT_DIR$/public/assets/application.css" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1372060878507" ignored="false" />
+    <file path="$PROJECT_DIR$/public/assets/application-d00a27b38ea364bedb3defbe14a232a4.css" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1372060800978" ignored="false" />
+    <file path="$PROJECT_DIR$/public/assets/application-9de4d9b897b791be0d51646f731d8673.css" changelist="ec8da395-c6fb-45dd-aa61-028e69cd627e" time="1372060800978" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,25 +60,25 @@
           <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="7" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+                <state line="21" column="10" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <file leaf-file-name="mercury.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/mercury.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="32" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+                <state line="23" column="52" selection-start="832" selection-end="832" vertical-scroll-proportion="-14.375">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Gemfile">
+          <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="54" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.66188526">
+                <state line="17" column="30" selection-start="643" selection-end="643" vertical-scroll-proportion="0.522541">
                   <folding />
                 </state>
               </provider>
@@ -82,7 +87,7 @@
           <file leaf-file-name="index.html.slim" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="31" selection-start="148" selection-end="148" vertical-scroll-proportion="-4.375">
+                <state line="13" column="8" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -91,7 +96,7 @@
           <file leaf-file-name="_post.html.slim" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="49" selection-start="786" selection-end="786" vertical-scroll-proportion="-14.375">
+                <state line="23" column="49" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -100,7 +105,7 @@
           <file leaf-file-name="_calendar.html.slim" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/_calendar.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="69" selection-start="611" selection-end="611" vertical-scroll-proportion="-11.25">
+                <state line="22" column="21" selection-start="732" selection-end="732" vertical-scroll-proportion="-13.75">
                   <folding />
                 </state>
               </provider>
@@ -109,7 +114,7 @@
           <file leaf-file-name="show.html.slim" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="45" selection-start="369" selection-end="369" vertical-scroll-proportion="-6.25">
+                <state line="10" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -118,10 +123,8 @@
           <file leaf-file-name="mercury.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mercury.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="317" column="85" selection-start="17340" selection-end="17340" vertical-scroll-proportion="-4.72">
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state line="317" column="52" selection-start="17340" selection-end="17340" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -129,7 +132,7 @@
           <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="89" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+                <state line="5" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -139,19 +142,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+          <file leaf-file-name="application.html.slim" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="116" selection-end="300" vertical-scroll-proportion="0.0">
+                <state line="40" column="36" selection-start="1320" selection-end="1320" vertical-scroll-proportion="1.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.html.slim" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
+          <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="63" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-6.875">
+                <state line="13" column="21" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -160,7 +163,7 @@
           <file leaf-file-name="_head.html.slim" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/_head.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-23.75">
+                <state line="38" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -169,16 +172,25 @@
           <file leaf-file-name="application.css.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="147" column="49" selection-start="2680" selection-end="2680" vertical-scroll-proportion="-4.8">
+                <state line="47" column="10" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="77" column="0" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/deploy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="5" selection-start="524" selection-end="524" vertical-scroll-proportion="0.12790698">
+                <state line="28" column="34" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -187,7 +199,7 @@
           <file leaf-file-name="active_admin.rb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="194" column="45" selection-start="5504" selection-end="5504" vertical-scroll-proportion="0.0">
+                <state line="194" column="3" selection-start="5504" selection-end="5504" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -196,7 +208,25 @@
           <file leaf-file-name="foundation_and_overrides.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="188" column="74" selection-start="6047" selection-end="6047" vertical-scroll-proportion="-4.2">
+                <state line="13" column="69" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="foundation.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374/gems/zurb-foundation-4.0.9/scss/foundation.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="28" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_global.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374/gems/zurb-foundation-4.0.9/scss/foundation/components/_global.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="51" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -214,22 +244,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/slide_menu/component.css" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_head.html.slim" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.slim" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/mercury.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" />
-        <option value="$PROJECT_DIR$/app/views/_calendar.html.slim" />
         <option value="$PROJECT_DIR$/app/views/posts/_post.html.slim" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.slim" />
+        <option value="$PROJECT_DIR$/app/views/_calendar.html.slim" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/mercury.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -265,12 +295,139 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedViewsFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layouts" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.LayoutsFolder" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="saburovo_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zurb-foundation (v4.0.9, RVM: ruby-1.9.3-p374) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zurb-foundation (v4.0.9, RVM: ruby-1.9.3-p374) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zurb-foundation (v4.0.9, RVM: ruby-1.9.3-p374) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zurb-foundation (v4.0.9, RVM: ruby-1.9.3-p374) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foundation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saburovo_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -449,32 +606,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slide_menu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saburovo_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saburovo_new" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -517,49 +648,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saburovo_new" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saburovo_new" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saburovo_new" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saburovo_new" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Views" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.UnclassifiedViewsFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saburovo_new" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saburovo_new" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.LayoutsFolder" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,8 +655,13 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: saburovo_new">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -935,116 +1028,112 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_head.html.slim">
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="-23.75">
+        <state line="5" column="5" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_menu.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="71" selection-start="356" selection-end="356" vertical-scroll-proportion="0.35560346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374/gems/mercury-rails-0.9.0/app/assets/javascripts/mercury.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="32" selection-start="2993" selection-end="2993" vertical-scroll-proportion="-7.2848363">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/mercury.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="317" column="85" selection-start="17340" selection-end="17340" vertical-scroll-proportion="-4.72">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="31" selection-start="148" selection-end="148" vertical-scroll-proportion="-4.375">
+        <state line="13" column="8" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.slim">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374/gems/zurb-foundation-4.0.9/scss/foundation/_foundation-global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="369" selection-end="369" vertical-scroll-proportion="-6.25">
+        <state line="6" column="30" selection-start="181" selection-end="184" vertical-scroll-proportion="-0.18518518" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_head.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="74" selection-start="6047" selection-end="6047" vertical-scroll-proportion="-4.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/_calendar.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="69" selection-start="611" selection-end="611" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="63" selection-start="1095" selection-end="1095" vertical-scroll-proportion="-6.875">
+        <state line="38" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="49" selection-start="2680" selection-end="2680" vertical-scroll-proportion="-4.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/_post.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="49" selection-start="786" selection-end="786" vertical-scroll-proportion="-14.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="7" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="45" selection-start="5504" selection-end="5504" vertical-scroll-proportion="0.0">
+        <state line="47" column="10" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="524" selection-end="524" vertical-scroll-proportion="0.12790698">
+        <state line="28" column="34" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+        <state line="194" column="3" selection-start="5504" selection-end="5504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="69" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374/gems/zurb-foundation-4.0.9/scss/foundation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374/gems/zurb-foundation-4.0.9/scss/foundation/components/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/_calendar.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="21" selection-start="732" selection-end="732" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="54" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.66188526">
+        <state line="77" column="0" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="36" selection-start="1320" selection-end="1320" vertical-scroll-proportion="1.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/mercury.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="52" selection-start="832" selection-end="832" vertical-scroll-proportion="-14.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="643" selection-end="643" vertical-scroll-proportion="0.522541">
           <folding />
         </state>
       </provider>

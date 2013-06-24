@@ -20,7 +20,6 @@ h5.subheader.cuprum Прошедшие события:
   .row
     .large-12.columns.padding-bottom
       span.radius.secondary.label = l post.action_date
-    .large-12.columns
       span.ActionDate
         = link_to (post_path(post)) do
-          i.icon-long-arrow-right = '&rarr; '.html_safe + truncate(post.title, :length => 33)
+          i.icon-long-arrow-right = ' &rarr; '.html_safe + truncate(post.title, :length => 46)
